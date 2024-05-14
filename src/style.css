@@ -542,6 +542,7 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  position: relative;
 }
 
 /* --------- */
@@ -615,6 +616,8 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  min-height: 100vh;
+  overflow-x: auto;
 }
 
 .resume {

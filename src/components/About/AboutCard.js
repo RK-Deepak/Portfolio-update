@@ -12,10 +12,15 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">RK_Deepak Verma </span>
             from <span className="purple"> Hanumangarh (Rajasthan).</span>
             <br />
-            I am a full stack developer and also a business man(Mum&Daughter).
+            I have around 3 years of experience as a <span className="purple">full-stack developer</span>from my tenure at Capgemini, where I developed expertise in both front-end and back-end technologies.
+            <br></br>
+            <br></br>
+            Currently I'm engaged in our family business<span className="purple"> (Mum&Daughter).</span>
+            <br></br>
+            <br></br>
+            I have completed B.Tech from<span className="purple"> DIT University(Dehradun).</span>
             <br />
-            I have completed B.Tech from DIT University(Dehradun).
-            <br />
+          
             <br />
             Apart from business and coding , some other activities that I love to do!
           </p>

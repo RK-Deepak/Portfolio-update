@@ -28,7 +28,7 @@ function Home2() {
               <br></br>
               And Currently Learning 
               <i>
-              <b className="purple"> TypeScript</b>
+              <b className="purple"> TypeScript & Next.js</b>
               </i>
               <br />
               <br />

@@ -56,7 +56,8 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <FaHome style={{ marginBottom: "2px" }} /> Home
+              
+<span style={{fontSize:"25px"}} title="Home">🏡</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -66,7 +67,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <FaUser style={{ marginBottom: "2px" }} /> About
+                <span style={{fontSize:"25px"}}  title="About">🕵🏼‍♂️</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -76,10 +77,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <FaRProject
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                 <span style={{fontSize:"25px"}} title="Projects" >🧑🏽‍💻</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -89,7 +87,8 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <FaDochub style={{ marginBottom: "2px" }} /> Resume
+                <span style={{fontSize:"25px"}} title="Resume" >📑</span>
+               
               </Nav.Link>
             </Nav.Item>
 
